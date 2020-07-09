@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="my_header">
+			<span class="glyphicon glyphicon-cog" style="color: white;font-size: 55px;margin: 20px  20px;"></span>
+			<span class="glyphicon glyphicon-envelope"	style="color: white;font-size: 50px;margin: 20px  20px;float: right;"></span>
+			<div class="my_infa">
+				<img src="./img/headpic.png" width="100%" height="100%">
+				<p>鲜果小王子</p>
+				<span class="glyphicon glyphicon-comment" style="font-size: 50px;margin: 40px  40px;float: right;"></span>
+				<ul>
+					<li><p>200<br><span style="color:#999999;font-size: 33px;">账户余额</span></p></li>
+					<li><p>0<br><span style="color:#999999;font-size: 33px;">优惠券</span></p></li>
+					<li><p>1600<br><span style="color:#999999;font-size: 33px;">账户积分</span></p></li>
+				</ul>
+			</div>
+			<div class="my_ord">
+				<ul>
+					<li>
+						<a href="orderDetails.html">
+							<span class="glyphicon glyphicon-credit-card" aria-hidden="true" ></span><br/><p style="font-size: 30px;">待支付</p>
+						</a>
+					</li>
+					<li>
+						<a href="order.html">
+							<span class="glyphicon glyphicon-folder-close" aria-hidden="true" ></span><br/><p style="font-size: 30px;">待配送</p>
+						</a>
+					</li>
+					<li>
+						<a href="deliveryInprogress.html">
+							<span class="glyphicon glyphicon-bed" aria-hidden="true" ></span><br/><p style="font-size: 30px;">配送中</p>
+						</a>
+					</li>
+					<li>
+						<a href="endOforder.html">
+							<span class="glyphicon glyphicon-comment" aria-hidden="true" ></span><br/><p style="font-size: 30px;">待评价</p>
+						</a>
+					</li>
+					<li>
+						<a href="allOrders.html">
+							<span class="glyphicon glyphicon-stop" aria-hidden="true" ></span><br/><p style="font-size: 30px;">全部订单</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		
+			<div style="width:100%;height:30px;background-color: #F9F9F9;"></div>
+			
+			
+			<div class="my_top">
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-heart" style="font-size:60px;color:#FD4B3B;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">我的收藏</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-gift" style="font-size:60px;color:#FE9B51;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">优惠福利</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-tent" style="font-size:60px;color:#FFC44D;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">会员中心</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					
+					<div style="width:100%;height:30px;background-color: #F9F9F9;"></div>
+					
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-user" style="font-size:60px;color:#339BFE;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">地址管理</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-home" style="font-size:60px;color:#339BFE;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 50%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">门店/自提点查询</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-headphones" style="font-size:60px;color:#339BFE;margin-top: 20px;float:left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">客服帮助</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+					<a href="#" class="list-group-item">
+						<span class="glyphicon glyphicon-cog" style="font-size:60px;color:#339BFE;margin-top: 20px;float: left;margin-left:50px;"></span>
+						<p style="width: 20%;font-size: 36px;line-height:100px;float: left;margin-left:40px;color: #878787;">设置</p>
+						<span class="glyphicon glyphicon-menu-right" style="font-size:50px;color: #878787;float:right;margin-top: 20px;margin-right:50px;"></span>
+					</a>
+				</div>
+			</div>
+			
+			<!-- 底部 -->
+			<footer>
+				<ul>
+					<li><a href="index.html" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true" ></span><br/><span style="font-size: 30px;">首页</span></li>
+					<li><a href="Category_page.html" target="_blank"><span class="glyphicon glyphicon-th-large" aria-hidden="true" ></span><br/><span style="font-size: 30px;">分类</span></a></li>
+					<li><a href="shoppingCart.html" target="_blank"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" ></span><br/><span style="font-size: 30px;">购物车</span></a></li>
+					<li><a href="my.html" target="_blank"><span class="glyphicon glyphicon-user" aria-hidden="true" ></span><br/><span style="font-size: 30px;">我的</span></a></li>
+				</ul>
+			</footer>
+	</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</html>
